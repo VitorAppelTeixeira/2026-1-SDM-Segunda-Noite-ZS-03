@@ -27,7 +27,7 @@ class Usuario(models.Model):
         default=True,
     )
     criado_em = models.DateTimeField(
-        verbose_name='Criado em',
+        verbose_name='Criado em ',
         auto_now_add=True,
     )
 
